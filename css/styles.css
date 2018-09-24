@@ -1,0 +1,24 @@
+h1 {
+  	color: #6A5ACD;
+}
+h3 {
+  font-style: italic;
+  color: #008B8B;
+}
+
+#holiday {
+  color: 	#6A5ACD;
+}
+
+
+.radios {
+  width: 100px;
+}
+
+div.button-holder {
+  padding-top: 50px;
+}
+
+body {
+  margin: 10vh 10vw;
+}
