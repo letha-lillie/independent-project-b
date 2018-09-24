@@ -50,15 +50,15 @@ $(document).ready(function() {
     }
 
     if (greeceCount > 2 || irelandCount > 2 || portugalCount > 2) {
-      if (greeceCount > 2) $("#output").text("You are off to beautiful GREECE!!")
-      else if (irelandCount > 2) $("#output").text("You are off to the Emerald Isle!")
-      else if (portugalCount > 2) $("#output").text("You will enjoy a magnificent adventure in Portugal.")
-      
+      if (greeceCount > 2) $("#output").html("<p>You are off to beautiful GREECE!!</p><img src=\"img/greece.jpg\">")
+      else if (irelandCount > 2) $("#output").html("<p>You are off to the Emerald Isle!</p><img src=\"img/ireland.jpg\">")
+      else if (portugalCount > 2) $("#output").html("<p>You will enjoy a magnificent adventure in Portugal.</p><img src=\"img/portugal.jpg\">")
+
     } else {
-      if (greeceCount >= 2) $("#output").text("You are off to beautiful GREECE!!")
-      else if (irelandCount >= 2) $("#output").text("You are off to the Emerald Isle!")
+      if (greeceCount >= 2) $("#output").html("<p>You are off to beautiful GREECE!!</p><img src=\"img/greece.jpg\">")
+      else if (irelandCount >= 2) $("#output").html("<p>You are off to the Emerald Isle!</p><img src=\"img/ireland.jpg\">")
       else if (portugalCount >= 2)
-      $("#output").text("You will enjoy a magnificent adventure in Portugal.")
+      $("#output").html("<p>You will enjoy a magnificent adventure in Portugal.</p><img src=\"img/portugal.jpg\">")
 
     }
 
