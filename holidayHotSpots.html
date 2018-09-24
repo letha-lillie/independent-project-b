@@ -4,7 +4,7 @@
 <head>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" type="text/css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.3.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
   <title>Dream Travel</title>
 </head>
@@ -12,97 +12,115 @@
 <body>
   <div class="container">
     <h1>Welcome to Dream Travel</h1>
-    <h3>Where we make your holiday dreams a reality!</h3>
+    <h4>Where we make your holiday dreams a reality!</h4>
     <form id="holiday">
       <div class="form-group">
-        <label for="input1">What is your primary motication when you travel? What excites you most?</label>
-        <input id="input1" class="form-control" type="text">
+        <label for="input1">What is your primary motication when you travel? What excites you the most?</label>
+
+        <div class="radio">
+
+        </div>
         <div class="radio">
           <label>
-          <input type="radio" name="operator" value="food" checked>Exotic food
+          <input type="radio" name="q1" value="greece">Curious customs
         </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="operator" value="customs">Curious customs
+          <input type="radio" name="q1" value="portugal">Outdoor adventure
         </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="operator" value="nature">Outdoor adventure
+          <input type="radio" name="q1" value="ireland">The bustle of foreign cities
+        </label>
+        </div>
+        <label for="input2">Do you enjoy hot, cold, or temperate climates?</label>
+        <div class="radio">
+          <label>
+          <input type="radio" name="q2" value="greece">Sizzlin'
         </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="operator" value="city">The bustle of foreign cities
+          <input type="radio" name="q2" value="ireland">Nice n cool
         </label>
         </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="q2" value="portugal">Goldilocks weather for me!
+        </label>
+        </div>
+        <label for="input3">What sort of foods do you enjoy?</label>
+        <div class="radio">
+          <label>
+          <input type="radio" name="q3" value="portugal">Four-alarm fire
+        </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="q3" value="greece">Flavorful and unfamiliar
+        </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="q3" value="ireland">Mild and innocuous
+        </label>
+        </div>
+
+        <label for="input4">How much time have you got?</label>
+        <div class="radio">
+          <label>
+          <input type="radio" name="q4" value="portugal">One month or more
+        </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="q4" value="ireland">Two to three weeks
+        </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="q4" value="greece">Just a weekend getaway for me
+        </label>
+        </div>
+
+        <label for="input5">Who's coming along?</label>
+        <div class="radio">
+          <label>
+          <input type="radio" name="q5" value="ireland">The whole damn family (4+ travelers)
+        </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="q5" value="portugal">Just me n my honey
+        </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="q5" value="greece">Just me n my shadow
+        </label>
+
+        </div>
+
+
       </div>
 
 
-
-      <div class="form-group">
-        <label for="input2">2nd number:
-        </label>
-        <input id="input2" class="form-control" type="text">
-      </div>
-      <div class="bg-info radios">
-
-
-        <div class="radio">
-          <label>
-          <input type="radio" name="operator" value="add" checked>add
-        </label>
-        </div>
-        <div class="radio">
-          <label>
-          <input type="radio" name="operator" value="subtract">subtract
-        </label>
-        </div>
-        <div class="radio">
-          <label>
-          <input type="radio" name="operator" value="multiply">multiply
-        </label>
-        </div>
-        <div class="radio">
-          <label>
-          <input type="radio" name="operator" value="divide">divide
-        </label>
-        </div>
-      </div>
+  </div>
 
   </div>
   <div class="text-center button-holder">
 
 
-    <button type="submit" class="btn btn-info">Go!</button>
+    <button type="submit" class="btn btn-info">Ready to plan your dream holiday? Click this button!</button>
     </form>
     <div id="output">
+      <img src="img/portugal.jpg" alt="Portugal">
     </div>
   </div>
-  <!-- <div class="feedback">
-  <h4>So, how do you like math now?!</h4>
-  <div class="radio">
-    <label>
-              <input type="radio" name="feeling" value="love" checked>
-              I love it!
-            </label>
-  </div>
-  <div class="radio">
-    <label>
-              <input type="radio" name="feeling" value="hate">
-              I hate it!
-            </label>
-  </div>
-  <div class="radio">
-    <label>  <input type="radio" name="feeling" value="meh">
-              Meh.
-            </label>
-          </div> -->
 
   </div>
-
-
 </body>
 
 </html>

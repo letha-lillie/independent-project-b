@@ -1,24 +1,40 @@
+body {
+  margin: 10vh 10vw;
+  font-family: fantasy;
+  background-color: #FFF0F5;
+  background-image: ;
+}
+
 h1 {
   	color: #6A5ACD;
+    /* font-weight: bold; */
+
+
 }
-h3 {
+h4 {
+  color: #6495ED;
+  padding-top: 10px;
+  padding-bottom: 50px;
   font-style: italic;
-  color: #008B8B;
+
 }
 
 #holiday {
   color: 	#6A5ACD;
 }
 
-
-.radios {
-  width: 100px;
-}
-
 div.button-holder {
   padding-top: 50px;
+  font-style: italic;
 }
 
-body {
-  margin: 10vh 10vw;
+#output {
+  color: #9400D3;
+  padding-top: 30px;
+  font-size: large;
+}
+
+img {
+  /* display: none; */
+  width: 300px;
 }
